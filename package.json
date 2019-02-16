@@ -1,0 +1,37 @@
+{
+  "name": "sapsan-cli",
+  "version": "1.0.0",
+  "description": "Sapsan's CLI",
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.5.1"
+  },
+  "bin": {
+    "nest": "bin/sapsan.js"
+  },
+  "scripts": {
+    "start": "node bin/sapsan.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redeyeowner/sapsan-cli.git"
+  },
+  "contributors": [],
+  "keywords": [
+    "sapsan",
+    "cli"
+  ],
+  "author": "Oleh Mushka <olegamysk@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/redeyeowner/sapsan-cli/issues"
+  },
+  "homepage": "https://github.com/redeyeowner/sapsan-cli#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.19.0"
+  }
+}
