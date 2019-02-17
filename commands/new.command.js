@@ -1,4 +1,8 @@
-module.exports = class NewCommand extends AbstractCommand {
+module.exports = class NewCommand {
+  constructor(action) {
+    this.action = action;
+  }
+
   load(program) {
     program
       .command('new [name] [description] [version] [author]')

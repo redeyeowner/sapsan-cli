@@ -10,7 +10,7 @@
     "npm": ">= 5.5.1"
   },
   "bin": {
-    "nest": "bin/sapsan.js"
+    "sapsan": "bin/sapsan.js"
   },
   "scripts": {
     "start": "node bin/sapsan.js"
@@ -32,6 +32,7 @@
   "homepage": "https://github.com/redeyeowner/sapsan-cli#readme",
   "dependencies": {
     "chalk": "^2.4.2",
-    "commander": "^2.19.0"
+    "commander": "^2.19.0",
+    "inquirer": "^6.2.2"
   }
 }
